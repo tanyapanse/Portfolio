@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("Pixellari.ttf") format("truetype");
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #cbd7f0;
+  font-family: "MyFont", sans-serif;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.row {
+  display: flex;
+  gap: 150px;
+}
+
+.pfp {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border-width: 7px;
+  border-color: #849fd5;
+  border-style: solid;
+}
+
+.greeting {
+  font-size: 35px;
+  color: #91aff1;
+}
+
+.circle-button {
+  border-style: none;
+  background-color: transparent;
+  transition: ease-in 0.2s;
+}
+
+.circle-button:hover {
+  scale: 1.2;
+}
+
+.circle-button img {
+  width: 60px;
+  height: 60px;
+}
+
+.circle-button:hover {
+  cursor: pointer;
+}
+
+i {
+  color: white;
+}
+
+.link-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.about {
+  background-color: #91aff17d;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  color: white;
+  text-align: center;
+  width: 800px;
+  transition: ease-in-out 0.2s;
+}
+
+.about:hover {
+  scale: 1.05;
+}
+
+.projects-section {
+  margin-top: 50px;
+  color: #91aff1;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project {
+  background-color: #91aff17d;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: ease-in 0.2s;
+}
+
+.project:hover {
+  scale: 1.05;
+}
+
+.projectrow {
+  display: flex;
+  gap: 20px;
+}
+
+.cover {
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 8px;
+  width: 200px;
+  margin: 20px;
+}
+
+.viewdetails {
+  font-size: medium;
+  border-style: none;
+  font-family: "MyFont";
+  color: #849fd5;
+  background-color: transparent;
+  margin-bottom: 10px;
+  transition: ease-in 0.2s;
+}
+
+.viewdetails img {
+  width: 130px;
+}
+
+.viewdetails:hover {
+  scale: 1.1;
+}
